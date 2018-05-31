@@ -1,0 +1,179 @@
+Ant, Giant
+Antelope
+Ape, Carnivorious
+Assassin Vine
+Basilisk
+Bat
+Bat, Giant
+Bear, Black
+Bear, Cave
+Bear, Grizzly(or Brown)
+Bear, Polar
+Bee, Giant
+Beetle, Giant Bombardier
+Beetle, Giant Fire
+Beetle Giant Tiger
+Black Pudding
+Blink Dog
+Blood Rose
+Boar
+Bugbear
+Caecilla, Giant
+Cave Locust, Giant
+Caveman
+Centaur
+Centipede, Giant
+Cheetah
+Cockatrice
+Crab, Giant
+Crocodile
+Dinosaur, Deinonychus
+Dinosaur, Pterodactyl(and Pteranodon)
+Dinosaur, Stegosaurus
+Dinosaur, Triceratops
+Dinosaur, Tyrannosaurus Rex
+Displacer
+Djinni
+Dog
+Doppleganger
+Dragon, Black
+Dragon, Blue
+Dragon, Gold
+Dragon, Green
+Dragon, Sea
+Dragon, White
+Dragon Turtle
+Dryad
+Eagle, Giant
+Efreeti
+Elemental, Air
+Elemental, Earth
+Elemental, Fire
+Elemental, Water
+Elephant
+Fish, Giant Barracuda
+Fish, Giant Bass
+Fish, Giant Catfish
+Fish, Giant Piranha
+Fly, Giant
+Frog, Giant(and Toad, Giant)
+Gargoyle
+Gelatinous Cube
+Ghast
+Ghost
+Ghoul
+Giant, Cloud
+Giant, Cyclops
+Giant, Fire
+Giant, Frost
+Giant, Hill
+Giant, Stone
+Giant, Storm
+Gnoll
+Gnome
+Goblin
+Golem, Amber
+Golem, Bone
+Golem, Bronze
+Golem, Clay
+Golem, Flesh
+Golem, Iron
+Golem, Stone
+Golem, Wood
+Gorgon
+Gray Ooze
+Green Slime
+Griffon
+Hangman Tree
+Harpy
+Hawk
+Hellhound
+Hippogriff
+Hobgoblin
+Hydra
+Hyena
+Hyenodon
+Insect Swarm
+Invisible Stalker
+Jaguar
+Kobold
+Leech Giant
+Lion
+Living Statue, Crystal
+Living Statue, Iron
+Living Statue, Stone
+Lizard, Giant Draco
+Lizard, Giant Gecko
+Lizard, Giant Horned Chameleon
+Lizard, Giant Tuatara
+Lizard Man
+Lycanthrope, Werebear
+Lycanthrope, Wereboar
+Lycanthrope, Wererat
+Lycanthrope, Weretiger
+Lycanthrope, Werewolf
+Manticore
+Mastodon
+Medusa
+Mermaid
+Minotaur
+Mountain Lion
+Mummy
+Nixie
+Ochre Jelly
+Octopus, Giant
+Orge
+Orc
+Owlbear
+Pegasus
+Pixie
+Purple Worm
+Rat
+Rhagodessa, Giant
+Rhinoceros
+Roc
+Rock Baboon
+Rot Grub
+Rust Monster
+Sabre-Tooth Cat
+Salamander
+Scorpion, Giant
+Sea Serpent
+Shadow
+Shark, Bull
+Shark, Great White
+Shark, Mako
+Shrew, Giant
+Shrieker
+Skeleton
+Snake, Giant Rattlesnake
+Snake, Pit viper
+Snake, Python
+Snake, Sea
+Snake, Spitting Cobra
+Spectre
+Spider, Giant Black Widow
+Spider, Giant Crab
+Spider, Giant Tarantula
+Sprite
+Squid, Giant
+Strige
+Tentacle Worm
+Tiger
+Titanothere
+Treant
+Troglodyte
+Troll
+Unicorn(and Alicorn)
+Vampire
+Water Termite, Giant
+Weasel, Giant(or Ferret, Giant)
+Whale, Killer
+Whale, Narwhal
+Whale, Sperm
+Wight
+Wolf
+Wraith
+Wyvern
+Yellow Mold
+Zombie
