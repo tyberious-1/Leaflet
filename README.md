@@ -1,6 +1,8 @@
 # Leaflet
 Leaflet is a digital GM screen designed for use with the Basic Fantasy RPG (www.basicfantasy.org).
 
+# Project Status
+Project is in early Alpha stages please check back for progress updates
 
 # Using the Program
 1. Install Python

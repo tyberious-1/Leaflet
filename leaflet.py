@@ -137,37 +137,41 @@ lootGeneratedLabel.grid(column=0, row=0, sticky='W')
 
 # Tab2
 
-monsterBoxHeight = 30
-monsterBoxWidth = 45
 
-selectMonsterList = tk.Listbox(tab2, width=monsterBoxWidth, height=monsterBoxHeight)
-selectMonsterList.grid(column=0, row=0)
-# To do
-# make text file with a line for each monster
+
+#selectMonsterList = tk.Listbox(tab2, width=monsterBoxWidth, height=monsterBoxHeight)
+#selectMonsterList.grid(column=0, row=0)
+# Opening monster input file
 monsterInputFile = open('./data/monsterList.txt')
 # use readlines to create a list
 monstersList = monsterInputFile.readlines()
 
 
 # create for loop to show the names in the list.
-iterration = 0
-for monster in monstersList:
+#iterration = 0
+#for monster in monstersList:
     #print(monster)
-    selectMonsterList.insert(iterration, monstersList[iterration])
-    iterration = iterration + 1
+    #selectMonsterList.insert(iterration, monstersList[iterration])
+    #iterration = iterration + 1
     
-selectMonsterList.activate(0)
+#selectMonsterList.activate(0)
 
 monsterOptionSelection = tk.StringVar()
 monsterOptionChoosen = ttk.Combobox(tab2, width=20, textvariable="monsterOptionSelection", state='readonly')
-monsterOptionChoosen['values'] = ('Any Random Item', 'Random Armor or Weapon', 'Any Item Except Weapons')
-monsterOptionChoosen.grid(column=0, row=1)
+iterration = 0
+for monster in monstersList:
+    monsterOptionChoosen['values'] = (monstersList)
+    iterration = iterration + 1
+
+monsterOptionChoosen.grid(column=0, row=0)
 
 
 
 
 # scrolling box
 
+monsterBoxHeight = 30
+monsterBoxWidth = 45
 monsterOutputBox = scrolledtext.ScrolledText(tab2, width=monsterBoxWidth, height=monsterBoxHeight, wrap=tk.WORD)
 monsterOutputBox.grid(column=1, row=0, sticky='WE')
 
