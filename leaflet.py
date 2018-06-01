@@ -74,7 +74,7 @@ def _quit():
     exit()
 
 def _aboutMsgBox():
-    msg.showinfo('Basic Fantasy GM Screen', 'To empower GMs\n Created by Tyler Burns 2018.')
+    msg.showinfo('GM Screen', 'To empower GMs\n Created by Tyler Burns 2018.')
 
 # Menu Items 
 fileMenu = Menu(menuBar, tearoff=0)
