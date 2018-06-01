@@ -158,6 +158,11 @@ for monster in monstersList:
     
 selectMonsterList.activate(0)
 
+monsterOptionSelection = tk.StringVar()
+monsterOptionChoosen = ttk.Combobox(tab2, width=20, textvariable="monsterOptionSelection", state='readonly')
+monsterOptionChoosen['values'] = ('Any Random Item', 'Random Armor or Weapon', 'Any Item Except Weapons')
+monsterOptionChoosen.grid(column=0, row=1)
+
 
 
 
