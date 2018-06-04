@@ -178,3 +178,5 @@ monsterOutputBox.grid(column=1, row=0, sticky='WE')
 
 # Main Loop 
 winMain.mainloop()
+
+monsterInputFile.close()
