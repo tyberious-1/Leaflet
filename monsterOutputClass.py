@@ -25,3 +25,14 @@
     the bestiary.
 
 '''
+
+
+class genMonsterStats:
+
+# Intialize the class
+    def __init__(self, monsterIndex):
+        self.monsterIndex = monsterIndex
+
+# Function pulls out the right file for output
+    def callMonster(self):
+        

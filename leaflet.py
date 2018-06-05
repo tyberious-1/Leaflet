@@ -168,8 +168,8 @@ monsterBoxWidth = 45
 monsterOutputBox = scrolledtext.ScrolledText(tab2, width=monsterBoxWidth, height=monsterBoxHeight, wrap=tk.WORD)
 monsterOutputBox.grid(column=1, row=0, sticky='WE')
 
-lootRollButton = ttk.Button(tab2, text="Look Up", command=_monsterButton)
-lootRollButton.grid(column=0, row=1, padx=8, pady=4)
+genMonsterButton = ttk.Button(tab2, text="Look Up", command=_monsterButton)
+genMonsterButton.grid(column=0, row=1, padx=8, pady=4)
 
 
 # Main Loop 
