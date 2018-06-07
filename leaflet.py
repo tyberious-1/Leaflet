@@ -42,6 +42,7 @@ import random
 # Custom Imports
 #===========
 from classLootTable import *
+from monsterOutputClass import *
 
 
 # Create Instance 
@@ -140,7 +141,25 @@ lootGeneratedLabel.grid(column=0, row=0, sticky='W')
 # Functions for tab2
 
 def _monsterButton():
-    print("Success!")
+
+    #print(monsterOptionChoosen.get())
+    monster = genMonsterStats(monsterOptionChoosen.get())
+    monster.callMonster()
+    for row in monster.monsterStatList:
+        print(row[0])
+        print(row[1])
+        print(row[2])
+        print(row[3])
+        print(row[4])
+        print(row[5])
+        print(row[6])
+        print(row[7])
+        print(row[8])
+        print(row[9])
+        print(row[10])
+
+    monster.closeDB()
+
 
 
 # Opening monster input file
@@ -161,15 +180,41 @@ for monster in monstersList:
 monsterOptionChoosen.grid(column=0, row=0)
 
 
-# scrolling box
+# Add a label for each field in the Database and an output label
+# Monster Group Label
+monsterGroup = ttk.LabelFrame(tab2, text="Monster")
+monsterGroup.grid(column=1, row=0, padx=20, pady=20, sticky='W')
 
-monsterBoxHeight = 30
-monsterBoxWidth = 45
-monsterOutputBox = scrolledtext.ScrolledText(tab2, width=monsterBoxWidth, height=monsterBoxHeight, wrap=tk.WORD)
-monsterOutputBox.grid(column=1, row=0, sticky='WE')
+# Monster Tag Labels
+monnameInfoLab = ttk.Label(monsterGroup, text="Monster Name:")
+monnameInfoLab.grid(column=0, row=0, sticky='W')
+monACInfoLab = ttk.Label(monsterGroup, text="Armor Class:")
+monACInfoLab.grid(column=0, row=1, sticky='W')
+monHDInfoLab = ttk.Label(monsterGroup, text="Hit Dice:")
+monHDInfoLab.grid(column=0, row=2, sticky='W')
+monATKInfoLab = ttk.Label(monsterGroup, text="Number of Attacks:")
+monATKInfoLab.grid(column=0, row=3, sticky='W')
+monDamInfoLab = ttk.Label(monsterGroup, text="Damage:")
+monDamInfoLab.grid(column=0, row=4, sticky='W')
+monMoveInfoLab = ttk.Label(monsterGroup, text="Movement:")
+monMoveInfoLab.grid(column=0, row=5, sticky='W')
+monAppearInfoLab = ttk.Label(monsterGroup, text="Number Appearing:")
+monAppearInfoLab.grid(column=0, row=6, sticky='W')
+monSaveInfoLab = ttk.Label(monsterGroup, text="Save As:")
+monSaveInfoLab.grid(column=0, row=7, sticky='W')
+monMoraleInfoLab = ttk.Label(monsterGroup, text="Morale:")
+monMoraleInfoLab.grid(column=0, row=8, sticky='W')
+monTreaInfoLab = ttk.Label(monsterGroup, text="Treasure Type:")
+monTreaInfoLab.grid(column=0, row=9, sticky='W')
+monXPInfoLab = ttk.Label(monsterGroup, text="XP:")
+monXPInfoLab.grid(column=0, row=10, sticky='W')
+
+# Output from Monsters Table Labels
+
 
 genMonsterButton = ttk.Button(tab2, text="Look Up", command=_monsterButton)
 genMonsterButton.grid(column=0, row=1, padx=8, pady=4)
+
 
 
 # Main Loop 

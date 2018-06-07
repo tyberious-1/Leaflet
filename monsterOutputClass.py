@@ -1,3 +1,7 @@
+#!/usr/bin/python
+
+import sqlite3
+
 '''
     Leaflet is a digital GM screen designed for use with the Basic Fantasy RPG (www.basicfantasy.org).
     Copyright (C) 2018  Tyler Burns
@@ -33,6 +37,14 @@ class genMonsterStats:
     def __init__(self, monsterIndex):
         self.monsterIndex = monsterIndex
 
+        self.connection = sqlite3.connect('./data/monsterStats.db') 
+
 # Function pulls out the right file for output
     def callMonster(self):
+        if self.monsterIndex == "Ant, Giant\n":
+            self.monsterStatList = self.connection.execute("Select * from monsterstats where monname = \"Ant, Giant\"")
+
+
         
+    def closeDB(self):
+        self.connection.close()
