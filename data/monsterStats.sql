@@ -40,3 +40,11 @@ values ("Bat, Giant", 14, "2d8", "1 Bite", "1d4", "10' Fly 60' (10')", "1d10, Wi
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Bear, Black", 14, "4d8", "2 Claws/1 Bite + hug", "1d4/1d4/1d6 + 2d6", "40'", "1d4, Wild 1d4, Lair 1d4", "Fighter: 4", "7", "None", "240");
 
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Bear, Cave", 15, "7d8", "2 Claws/1 Bite + hug", "1d8/1d8/2d6 + 2d8", "40'", "1d2, Wild 1d2, Lair 1d2", "Fighter: 7", "9", "None", "670");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Bear, Grizzly (or Brown)", 14, "5d8", "2 Claws/1 Bite + hug", "1d4/1d4/1d8 + 2d8", "40'", "1, Wild 1d4, Lair 1d4", "Fighter: 5", "8", "None", "360");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Bear, Polar", 14, "6d8", "2 Claws/1 Bite + hug", "1d6/1d6/1d10 + 2d8", "40'", "1, Wild 1d2, Lair 1d2", "Fighter: 6", "8", "None", "500");
