@@ -54,3 +54,15 @@ values ("Bee, Giant", 13, "1d4*", "1 Sting", "1d4 + Poison", "10' Fly 50'", "1d6
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Beetle, Giant Bombardier", 16, "2d8*", "1 Bite + Special", "1d6 + Special", "40'", "1d8, Wild 2d6, Lair 2d6", "Fighter: 2", "8", "None", "100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Beetle, Giant Fire", 16, "1d8 + 2", "1 Bite", "2d4", "40'", "1d8, Wild 2d6, Lair 2d6", "Fighter: 1", "7", "None", "25");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Beetle, Giant Tiger", 16, "3d8 + 1", "1 Bite", "2d6", "40'", "1d6, Wild 2d4, Lair 2d4", "Fighter: 3", "9", "U", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Black Pudding*", 14, "10d8* (+9)", "1 Pseudopod", "3d8", "20'", "1", "Fighter: 10", "12", "None", "1390");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Blink Dog", 14, "4d8*", "1 Bite", "1d6", "40'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 4", "6", "C", "280");
