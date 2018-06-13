@@ -48,3 +48,9 @@ values ("Bear, Grizzly (or Brown)", 14, "5d8", "2 Claws/1 Bite + hug", "1d4/1d4/
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Bear, Polar", 14, "6d8", "2 Claws/1 Bite + hug", "1d6/1d6/1d10 + 2d8", "40'", "1, Wild 1d2, Lair 1d2", "Fighter: 6", "8", "None", "500");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Bee, Giant", 13, "1d4*", "1 Sting", "1d4 + Poison", "10' Fly 50'", "1d6, Wild 1d6, Lair 5d6", "Fighter: 1", "9", "Special", "13");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Beetle, Giant Bombardier", 16, "2d8*", "1 Bite + Special", "1d6 + Special", "40'", "1d8, Wild 2d6, Lair 2d6", "Fighter: 2", "8", "None", "100");
