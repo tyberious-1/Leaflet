@@ -66,3 +66,12 @@ values ("Black Pudding*", 14, "10d8* (+9)", "1 Pseudopod", "3d8", "20'", "1", "F
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Blink Dog", 14, "4d8*", "1 Bite", "1d6", "40'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 4", "6", "C", "280");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Blood Rose", 13, "2d8* to 4d8*", "1 to 3 Plus Blood Drain", "1d6", "1'", "Wild 1d8", "Fighter: 2", "12", "None", "100-280");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Boar", 13, "3d8", "1 Tusk", "2d4", "50' (10')", "Wild 1d6", "Fighter: 3", "9", "None", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Bugbear", 15(13), "3d8 + 1", "1 Weapon", "1d8 or by weapon + 1", "30' Unarmored 40'", "2d4, Wild 5d4, Lair 5d4", "Fighter: 3", "9", "Q, Reach; B, L, M in Lair", "145");
