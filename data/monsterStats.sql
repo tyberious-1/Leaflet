@@ -1,7 +1,7 @@
 /*
 create table monsterstats(
     monname text primary key,
-    armorclass int,
+    armorclass text,
     hitdice text,
     numofattacks text,
     damage text,
@@ -16,62 +16,65 @@ create table monsterstats(
 
 /*
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Ant, Giant", 17, "4d8", "1 bite", "2d6", "60' (10')", "2d6, Wild 2d6, Lair 4d6", "Fighter: 4", "7 on first sighting, 12 after engaged", "U or Special", "240");
+values ("Ant, Giant", "17", "4d8", "1 bite", "2d6", "60' (10')", "2d6, Wild 2d6, Lair 4d6", "Fighter: 4", "7 on first sighting, 12 after engaged", "U or Special", "240");
 */
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Antelope", 13, "1 to 4d8", "1 butt", "1d4 or 1d6 or 1d8", "80' (10')", "Wild 3d10", "Fighter: 1 to 4 (as Hit Dice)", "5(7)", "None", "25-240");
+values ("Antelope", "13", "1 to 4d8", "1 butt", "1d4 or 1d6 or 1d8", "80' (10')", "Wild 3d10", "Fighter: 1 to 4 (as Hit Dice)", "5(7)", "None", "25-240");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Ape, Carnivorous", 14, "4d8", "2 claws", "1d4/1d4", "40'", "1d6, Wild 2d4, Lair 2d4", "Fighter: 4", "7", "None", "240");
+values ("Ape, Carnivorous", "14", "4d8", "2 claws", "1d4/1d4", "40'", "1d6, Wild 2d4, Lair 2d4", "Fighter: 4", "7", "None", "240");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Assassin Vine", 15, "6d8", "1 + Special", "1d8 + special", "5'", "1d4+1", "Fighter: 6", "12", "U", "500");
+values ("Assassin Vine", "15", "6d8", "1 + Special", "1d8 + special", "5'", "1d4+1", "Fighter: 6", "12", "U", "500");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Basilisk", 16, "6d8**", "1 bite/1 gaze", "1d10/petrification", "20'(10')", "1d6, Wild 1d6, Lair 1d6", "Fighter: 6", "9", "F", "610");
+values ("Basilisk", "16", "6d8**", "1 bite/1 gaze", "1d10/petrification", "20'(10')", "1d6, Wild 1d6, Lair 1d6", "Fighter: 6", "9", "F", "610");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Bat", 14, "1 Hit Point", "1 Special", "Confusion", "30' Fly 40'", "1d100, Wild 1d100, Lair 1d100", "Normal Man", "6", "None", "10");
+values ("Bat", "14", "1 Hit Point", "1 Special", "Confusion", "30' Fly 40'", "1d100, Wild 1d100, Lair 1d100", "Normal Man", "6", "None", "10");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Bat, Giant", 14, "2d8", "1 Bite", "1d4", "10' Fly 60' (10')", "1d10, Wild 1d10, Lair 1d10", "Fighter: 2", "8", "None", "75");
+values ("Bat, Giant", "14", "2d8", "1 Bite", "1d4", "10' Fly 60' (10')", "1d10, Wild 1d10, Lair 1d10", "Fighter: 2", "8", "None", "75");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Bear, Black", 14, "4d8", "2 Claws/1 Bite + hug", "1d4/1d4/1d6 + 2d6", "40'", "1d4, Wild 1d4, Lair 1d4", "Fighter: 4", "7", "None", "240");
+values ("Bear, Black", "14", "4d8", "2 Claws/1 Bite + hug", "1d4/1d4/1d6 + 2d6", "40'", "1d4, Wild 1d4, Lair 1d4", "Fighter: 4", "7", "None", "240");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Bear, Cave", 15, "7d8", "2 Claws/1 Bite + hug", "1d8/1d8/2d6 + 2d8", "40'", "1d2, Wild 1d2, Lair 1d2", "Fighter: 7", "9", "None", "670");
+values ("Bear, Cave", "15", "7d8", "2 Claws/1 Bite + hug", "1d8/1d8/2d6 + 2d8", "40'", "1d2, Wild 1d2, Lair 1d2", "Fighter: 7", "9", "None", "670");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Bear, Grizzly (or Brown)", 14, "5d8", "2 Claws/1 Bite + hug", "1d4/1d4/1d8 + 2d8", "40'", "1, Wild 1d4, Lair 1d4", "Fighter: 5", "8", "None", "360");
+values ("Bear, Grizzly (or Brown)", "14", "5d8", "2 Claws/1 Bite + hug", "1d4/1d4/1d8 + 2d8", "40'", "1, Wild 1d4, Lair 1d4", "Fighter: 5", "8", "None", "360");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Bear, Polar", 14, "6d8", "2 Claws/1 Bite + hug", "1d6/1d6/1d10 + 2d8", "40'", "1, Wild 1d2, Lair 1d2", "Fighter: 6", "8", "None", "500");
+values ("Bear, Polar", "14", "6d8", "2 Claws/1 Bite + hug", "1d6/1d6/1d10 + 2d8", "40'", "1, Wild 1d2, Lair 1d2", "Fighter: 6", "8", "None", "500");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Bee, Giant", 13, "1d4*", "1 Sting", "1d4 + Poison", "10' Fly 50'", "1d6, Wild 1d6, Lair 5d6", "Fighter: 1", "9", "Special", "13");
+values ("Bee, Giant", "13", "1d4*", "1 Sting", "1d4 + Poison", "10' Fly 50'", "1d6, Wild 1d6, Lair 5d6", "Fighter: 1", "9", "Special", "13");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Beetle, Giant Bombardier", 16, "2d8*", "1 Bite + Special", "1d6 + Special", "40'", "1d8, Wild 2d6, Lair 2d6", "Fighter: 2", "8", "None", "100");
+values ("Beetle, Giant Bombardier", "16", "2d8*", "1 Bite + Special", "1d6 + Special", "40'", "1d8, Wild 2d6, Lair 2d6", "Fighter: 2", "8", "None", "100");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Beetle, Giant Fire", 16, "1d8 + 2", "1 Bite", "2d4", "40'", "1d8, Wild 2d6, Lair 2d6", "Fighter: 1", "7", "None", "25");
+values ("Beetle, Giant Fire", "16", "1d8 + 2", "1 Bite", "2d4", "40'", "1d8, Wild 2d6, Lair 2d6", "Fighter: 1", "7", "None", "25");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Beetle, Giant Tiger", 16, "3d8 + 1", "1 Bite", "2d6", "40'", "1d6, Wild 2d4, Lair 2d4", "Fighter: 3", "9", "U", "145");
+values ("Beetle, Giant Tiger", "16", "3d8 + 1", "1 Bite", "2d6", "40'", "1d6, Wild 2d4, Lair 2d4", "Fighter: 3", "9", "U", "145");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Black Pudding*", 14, "10d8* (+9)", "1 Pseudopod", "3d8", "20'", "1", "Fighter: 10", "12", "None", "1390");
+values ("Black Pudding*", "14", "10d8* (+9)", "1 Pseudopod", "3d8", "20'", "1", "Fighter: 10", "12", "None", "1390");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Blink Dog", 14, "4d8*", "1 Bite", "1d6", "40'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 4", "6", "C", "280");
+values ("Blink Dog", "14", "4d8*", "1 Bite", "1d6", "40'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 4", "6", "C", "280");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Blood Rose", 13, "2d8* to 4d8*", "1 to 3 Plus Blood Drain", "1d6", "1'", "Wild 1d8", "Fighter: 2", "12", "None", "100-280");
+values ("Blood Rose", "13", "2d8* to 4d8*", "1 to 3 Plus Blood Drain", "1d6", "1'", "Wild 1d8", "Fighter: 2", "12", "None", "100-280");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Boar", 13, "3d8", "1 Tusk", "2d4", "50' (10')", "Wild 1d6", "Fighter: 3", "9", "None", "145");
+values ("Boar", "13", "3d8", "1 Tusk", "2d4", "50' (10')", "Wild 1d6", "Fighter: 3", "9", "None", "145");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Bugbear", 15(13), "3d8 + 1", "1 Weapon", "1d8 or by weapon + 1", "30' Unarmored 40'", "2d4, Wild 5d4, Lair 5d4", "Fighter: 3", "9", "Q, Reach; B, L, M in Lair", "145");
+values ("Bugbear", "15(13)", "3d8 + 1", "1 Weapon", "1d8 or by weapon + 1", "30' Unarmored 40'", "2d4, Wild 5d4, Lair 5d4", "Fighter: 3", "9", "Q, Reach; B, L, M in Lair", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Caecilia, Giant", "14", "6d8*", "1 bit + swallow on 19/20", "1d8 + 1d8/round if swallowed", "20' (10')", "1d3, Lair 1d3", "Fighter: 3", "9", "B", "555");
