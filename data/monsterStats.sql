@@ -77,4 +77,7 @@ insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, mo
 values ("Bugbear", "15(13)", "3d8 + 1", "1 Weapon", "1d8 or by weapon + 1", "30' Unarmored 40'", "2d4, Wild 5d4, Lair 5d4", "Fighter: 3", "9", "Q, Reach; B, L, M in Lair", "145");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Caecilia, Giant", "14", "6d8*", "1 bit + swallow on 19/20", "1d8 + 1d8/round if swallowed", "20' (10')", "1d3, Lair 1d3", "Fighter: 3", "9", "B", "555");
+values ("Caecilia, Giant", "14", "6d8*", "1 bite + swallow on 19/20", "1d8 + 1d8/round if swallowed", "20' (10')", "1d3, Lair 1d3", "Fighter: 3", "9", "B", "555");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Cave Locust, Giant", "16", "2d8**", "1 bite or 1 bump or 1 spit", "1d2 or 1d4* or special", "20' Fly 60' (15')", "2d10, Wild 1d10", "Fighter: 2", "5", "None", "125");
