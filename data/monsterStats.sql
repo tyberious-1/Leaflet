@@ -81,3 +81,6 @@ values ("Caecilia, Giant", "14", "6d8*", "1 bite + swallow on 19/20", "1d8 + 1d8
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Cave Locust, Giant", "16", "2d8**", "1 bite or 1 bump or 1 spit", "1d2 or 1d4* or special", "20' Fly 60' (15')", "2d10, Wild 1d10", "Fighter: 2", "5", "None", "125");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Caveman", "12", "2d8", "1 Weapon", "1d8 or Weapon + 1", "40'", "1d10, Wild 10d4, Lair 10d4", "Fighter: 2", "7", "C", "75");
