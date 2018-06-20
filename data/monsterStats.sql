@@ -84,3 +84,30 @@ values ("Cave Locust, Giant", "16", "2d8**", "1 bite or 1 bump or 1 spit", "1d2 
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Caveman", "12", "2d8", "1 Weapon", "1d8 or Weapon + 1", "40'", "1d10, Wild 10d4, Lair 10d4", "Fighter: 2", "7", "C", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Centaur", "14", "4d8", "2 Hooves/1 Weapon", "1d6/1d6/1d6 or By Weapon", "50' Unarmored 60' (10')", "Wild 2d10", "Fighter: 4", "8", "A", "240");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Centipede, Giant", "11", "1d4*", "1 Bite", "Poison", "40'", "2d4, Wild 2d4, Lair 2d4", "Normal Man", "7", "None", "13");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Cheetah", "14", "2d8", "2 Claws/1 Bite", "1d4/1d4/2d4", "100'", "Wild 1d3, Lair 1d3", "Fighter: 2", "7", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Chimera", "16", "9d8**(+8)", "2 Claws/3 Heads + Special", "1d4/1d4/2d4/3d4 + Special", "40'(10') Fly 60' (15')", "1d2, Wild 1d4, Lair 1d4", "Fighter: 9", "9", "F", "1225");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Cockatrice", "14", "5d8**", "1 Beak + Special", "1d6 + Petrification", "30' Fly 60'(10')", "1d4, Wild 1d8, Lair 1d8", "Fighter: 5", "7", "D", "450");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Crab, Giant", "18", "3d8", "2 Pincers", "2d6/2d6", "20' Swim 20'", "1d2, Wild 1d6, Lair 1d6", "Fighter: 3", "7", "None", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Crocodile, Normal", "15", "2d8", "1 Bite", "1d8", "30'(10') Swim 30' (10')", "Wild 1d8", "Fighter: 2", "7", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Crocodile, Large", "17", "6d8", "1 Bite", "2d8", "30'(10') Swim 30' (10')", "Wild 1d4", "Fighter: 6", "8", "None", "500");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Crocodile, Giant", "19", "15d8 + 11", "1 Bite", "3d8", "30'(10') Swim 30' (10')", "Wild 1d3", "Fighter: 15", "9", "None", "2850");

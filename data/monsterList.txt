@@ -26,7 +26,9 @@ Centipede, Giant
 Cheetah
 Cockatrice
 Crab, Giant
-Crocodile
+Crocodile, Normal
+Crocodile, Large
+Crocodile, Giant
 Dinosaur, Deinonychus
 Dinosaur, Pterodactyl(and Pteranodon)
 Dinosaur, Stegosaurus
