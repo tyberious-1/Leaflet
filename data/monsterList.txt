@@ -30,7 +30,8 @@ Crocodile, Normal
 Crocodile, Large
 Crocodile, Giant
 Dinosaur, Deinonychus
-Dinosaur, Pterodactyl(and Pteranodon)
+Dinosaur, Pterodactyl 
+Dinosaur, Pteranodon
 Dinosaur, Stegosaurus
 Dinosaur, Triceratops
 Dinosaur, Tyrannosaurus Rex

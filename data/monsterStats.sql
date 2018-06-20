@@ -111,3 +111,22 @@ values ("Crocodile, Large", "17", "6d8", "1 Bite", "2d8", "30'(10') Swim 30' (10
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Crocodile, Giant", "19", "15d8 + 11", "1 Bite", "3d8", "30'(10') Swim 30' (10')", "Wild 1d3", "Fighter: 15", "9", "None", "2850");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dinosaur, Deinonychus", "15", "3d8", "1 Bite", "1d8", "50'", "1d3, Wild 2d3, Lair 2d6", "Fighter: 3", "8", "None", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dinosaur, Pterodactyl", "12", "1d8", "1 Bite", "1d4", "Fly 60' (10')", "Wild 2d4", "Fighter: 1", "7", "None", "25");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dinosaur, Pteranodon", "13", "5d8", "1 Bite", "2d6", "Fly 60' (10')", "Wild 1d4", "Fighter: 3", "8", "None", "360");
+
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dinosaur, Stegosaurus", "17", "11d8 (+9)", "1 Tail/1 Bite or 1 Trample", "2d8/1d6 or 2d8", "20' (15')", "Wild 1d4", "Fighter: 6", "7", "None", "1575");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dinosaur, Triceratops", "19", "11d8 (+9)", "1 Gore or 1 Trample", "3d6 or 3d6 (Special, see below)", "30' (15')", "Wild 1d4", "Fighter: 7", "8", "None", "1575");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dinosaur, Tyrannosaurus Rex", "23", "18d8 (+12)", "1 Bite", "6d6", "40' (10')", "Wild 1d4", "Fighter: 9", "11", "None", "4000");
