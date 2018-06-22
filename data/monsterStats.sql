@@ -130,3 +130,6 @@ values ("Dinosaur, Triceratops", "19", "11d8 (+9)", "1 Gore or 1 Trample", "3d6 
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Dinosaur, Tyrannosaurus Rex", "23", "18d8 (+12)", "1 Bite", "6d6", "40' (10')", "Wild 1d4", "Fighter: 9", "11", "None", "4000");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Displacer", "16", "6d8*", "2 Blades", "1d8/1d8", "50'", "1d4, Wild 1d4", "Fighter: 6", "8", "D", "555");
