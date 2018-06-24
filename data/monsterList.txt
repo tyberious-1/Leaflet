@@ -37,7 +37,8 @@ Dinosaur, Triceratops
 Dinosaur, Tyrannosaurus Rex
 Displacer
 Djinni
-Dog
+Dog, Normal
+Dog, Riding
 Doppleganger
 Dragon, Black
 Dragon, Blue
