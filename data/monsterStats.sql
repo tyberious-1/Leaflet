@@ -142,3 +142,6 @@ values ("Dog, Normal", "14", "1d8 + 1", "1 Bite", "1d4 + Hold", "50'", "Wild 3d4
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Dog, Riding", "14", "2d8", "1 Bite", "1d4 + 1 + Hold", "50'", "Domestic Only", "Fighter: 2", "9", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Doppleganger", "15", "4d8", "1 Fist", "1d12 or By Weapon", "30'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 4", "10", "E", "280");
