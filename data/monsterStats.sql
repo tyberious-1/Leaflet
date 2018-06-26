@@ -145,3 +145,25 @@ values ("Dog, Riding", "14", "2d8", "1 Bite", "1d4 + 1 + Hold", "50'", "Domestic
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Doppleganger", "15", "4d8", "1 Fist", "1d12 or By Weapon", "30'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 4", "10", "E", "280");
+
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dragon, Black", "18", "7d8**", "2 Claws/1 Bite or Breath/1 Tail", "1d6/1d6/2d10 or Breath/1d6", "30' Fly 80' (15')", "1, Wild 1, Lair 1d4", "Fighter: 7 (as Hit Dice)", "8", "H", "800");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dragon, Blue", "20", "9d8** (+8)", "2 Claws/1 Bite or Breath/1 Tail", "1d8/1d8/3d8 or Breath/1d8", "30' Fly 80' (15')", "1, Wild 1, Lair 1d4", "Fighter: 9 (as Hit Dice)", "9", "H", "1225");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dragon, Gold", "22", "11d8** (+9)", "2 Claws/1 Bite or Breath/1 Tail", "2d4/2d4/6d6 or Breath/2d4", "30' Fly 80' (20')", "1, Wild 1, Lair 1d4", "Fighter: 11 (as Hit Dice)", "10", "H", "1765");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dragon, Green", "19", "8d8**", "2 Claws/1 Bite or Breath/1 Tail", "1d6/1d6/3d8 or Breath/1d6", "30' Fly 80' (15')", "1, Wild 1, Lair 1d4", "Fighter: 8 (as Hit Dice)", "8", "H", "1015");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dragon, Red", "21", "10d8** (+9)", "2 Claws/1 Bite or Breath/1 Tail", "1d8/1d8/4d8 or Breath/1d8", "30' Fly 80' (20')", "1, Wild 1, Lair 1d4", "Fighter: 10 (as Hit Dice)", "8", "H", "1480");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dragon, Sea", "19", "8d8**", "2 Claws/1 Bite or Breath", "1d6/1d6/3d8 or Breath", "30' Fly 60' (20') Swim 60' (15')", "1, Wild 1, Lair 1d4", "Fighter: 8 (as Hit Dice)", "8", "H", "1015");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dragon, Trutle", "22", "30d8**", "2 Claws/1 Bite or Breath", "2d8/2d8/10d6 or 30d8", "10'(10') Swim 80' (15')", "Wild 1", "Fighter: 20 at + 5", "10", "H", "13650");
