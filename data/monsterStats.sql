@@ -167,3 +167,6 @@ values ("Dragon, Sea", "19", "8d8**", "2 Claws/1 Bite or Breath", "1d6/1d6/3d8 o
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Dragon, Trutle", "22", "30d8**", "2 Claws/1 Bite or Breath", "2d8/2d8/10d6 or 30d8", "10'(10') Swim 80' (15')", "Wild 1", "Fighter: 20 at + 5", "10", "H", "13650");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Dryad", "15", "2d8*", "1 Attack", "1d4", "40'", "Lair 1d6", "Magic-User: 4", "6", "D", "100");
