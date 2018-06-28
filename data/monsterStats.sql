@@ -170,3 +170,10 @@ values ("Dragon, Trutle", "22", "30d8**", "2 Claws/1 Bite or Breath", "2d8/2d8/1
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Dryad", "15", "2d8*", "1 Attack", "1d4", "40'", "Lair 1d6", "Magic-User: 4", "6", "D", "100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Eagle, Giant", "15", "4d8*", "2 Claws/1 Bite", "1d6/1d6/1d8", "10' Fly 90'", "2d6", "Fighter: 4", "7", "Nil", "240");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Efreeti", "21‡", "10d8* (+9)", "1", "2d8 or Special", "30' Fly 80' (10')", "1", "Fighter: 15", "12(9)", "None", "1390");
+
