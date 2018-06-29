@@ -177,3 +177,38 @@ values ("Eagle, Giant", "15", "4d8*", "2 Claws/1 Bite", "1d6/1d6/1d8", "10' Fly 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Efreeti", "21‡", "10d8* (+9)", "1", "2d8 or Special", "30' Fly 80' (10')", "1", "Fighter: 15", "12(9)", "None", "1390");
 
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Air Staff*", "18‡", "8d8*", "Special", "1d12", "Fly 120'", "Special", "Fighter: 8", "10", "None", "945");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Air Device*", "20‡", "12d8* (+10)", "Special", "2d8", "Fly 120'", "Special", "Fighter: 12", "10", "None", "1975");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Air Spell", "22‡", "16d8* (+12)", "Special", "3d6", "Fly 120'", "Special", "Fighter: 16", "10", "None", "3385");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Earth Staff", "18‡", "8d8*", "1", "1d12", "20' (10')", "Special", "Fighter: 8", "10", "None", "945");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Earth Device*", "20‡", "12d8* (+10)", "1", "2d8", "20' (10')", "Special", "Fighter: 12", "10", "None", "1975");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Earth Spell", "22‡", "16d8* (+12)", "1", "3d6", "20' (10')", "Special", "Fighter: 16", "10", "None", "3385");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Fire Staff", "18‡", "8d8*", "1", "1d12", "40' Fly 30'", "Special", "Fighter: 8", "10", "None", "945");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Fire Device*", "20‡", "12d8* (+10)", "1", "2d8", "40' Fly 30'", "Special", "Fighter: 12", "10", "None", "1975");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Fire Spell", "22‡", "16d8* (+12)", "1", "3d6", "40' Fly 30'", "Special", "Fighter: 16", "10", "None", "3385");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Water Staff", "18‡", "8d8*", "1", "1d12", "20' (15') Swim 60'", "Special", "Fighter: 8", "10", "None", "945");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elemental, Water Device*", "20‡", "12d8* (+10)", "1", "2d8", "20' (15') Swim 60'", "Special", "Fighter: 12", "10", "None", "1975");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Elephant", "18", "9d8 (+8)", "2 Tusks or 1 Trample", "2d4/2d4 or 4d8", "40' (15')", "Wild 1d20", "Fighter: 9", "8", "Special", "1075");

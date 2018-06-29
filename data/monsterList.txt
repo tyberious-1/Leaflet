@@ -50,10 +50,18 @@ Dragon Turtle
 Dryad
 Eagle, Giant
 Efreeti
-Elemental, Air
-Elemental, Earth
-Elemental, Fire
-Elemental, Water
+Elemental, Air Staff*
+Elemental, Air Device*
+Elemental, Air Spell*
+Elemental, Earth Staff*
+Elemental, Earth Device*
+Elemental, Earth Spell*
+Elemental, Fire Staff*
+Elemental, Fire Device*
+Elemental, Fire Spell*
+Elemental, Water Staff*
+Elemental, Water Device*
+Elemental, Water Spell*
 Elephant
 Fish, Giant Barracuda
 Fish, Giant Bass
