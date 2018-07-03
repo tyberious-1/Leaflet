@@ -63,7 +63,8 @@ Elemental, Water Staff*
 Elemental, Water Device*
 Elemental, Water Spell*
 Elephant
-Fish, Giant Barracuda
+Fish, Giant Barracuda (Huge)
+Fish, Giant Barracuda (Giant)
 Fish, Giant Bass
 Fish, Giant Catfish
 Fish, Giant Piranha

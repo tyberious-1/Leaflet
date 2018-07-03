@@ -212,3 +212,9 @@ values ("Elemental, Water Device*", "20‡", "12d8* (+10)", "1", "2d8", "20' (15
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Elephant", "18", "9d8 (+8)", "2 Tusks or 1 Trample", "2d4/2d4 or 4d8", "40' (15')", "Wild 1d20", "Fighter: 9", "8", "Special", "1075");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Fish, Giant Barracuda (Huge)", "16", "5d8", "1 Bite", "2d6", "Swim 60'", "Wild 2d4", "Fighter: 5", "8", "None", "360");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Fish, Giant Barracuda (Giant)", "18", "9d8 (+8)", "1 Bite", "2d8", "Swim 60' (10')", "Wild 1", "Fighter: 9", "10", "None", "1075");
