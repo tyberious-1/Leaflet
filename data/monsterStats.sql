@@ -218,3 +218,15 @@ values ("Fish, Giant Barracuda (Huge)", "16", "5d8", "1 Bite", "2d6", "Swim 60'"
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Fish, Giant Barracuda (Giant)", "18", "9d8 (+8)", "1 Bite", "2d8", "Swim 60' (10')", "Wild 1", "Fighter: 9", "10", "None", "1075");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Fish, Giant Bass", "13", "2d8", "1 Bite", "1d6", "Swim 40' (10')", "Wild 1d6", "Fighter: 2", "8", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Fish, Giant Catfish", "16", "8d8", "1 Bite/2 Fins", "2d8/1d4 + Poison/1d4 + Poison ", "Swim 30' (10')", "Wild 1d2", "Fighter: 8", "8", "None", "875");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Fish, Giant Piranha", "15", "4d8", "1 Bite", "1d8", "Swim 50' (10')", "Wild 2d4", "Fighter: 4", "7(11)", "None", "240");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Fly, Giant", "14", "2d8", "1 Bite", "1d8", "30' Fly 60'", "1d6, Wild 2d6", "Fighter: 2", "8", "None", "75");
