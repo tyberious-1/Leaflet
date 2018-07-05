@@ -230,3 +230,12 @@ values ("Fish, Giant Piranha", "15", "4d8", "1 Bite", "1d8", "Swim 50' (10')", "
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Fly, Giant", "14", "2d8", "1 Bite", "1d8", "30' Fly 60'", "1d6, Wild 2d6", "Fighter: 2", "8", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Frog, Giant (and Toad, Giant)", "13", "2d8", "1 Tongue or 1 Bite", "Grab or 1d4 + 1", "30' Swim 30'", "1d4, Wild 1d4", "Fighter: 2", "6", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Gargoyle*", "15‡", "4d8**", "2 Claws/1 Bite/1 Horn", "1d4/1d4/1d6/1d4", "30' Fly 50' (15')", "1d6, Wild 2d4, Lair 2d4", "Fighter: 6", "11", "C", "320");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Gelatinous Cube", "12", "4d8**", "1", "2d4 + Paralysis", "20'", "1", "Fighter: 2", "12", "V", "280");
