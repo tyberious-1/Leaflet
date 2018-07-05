@@ -239,3 +239,7 @@ values ("Gargoyle*", "15‡", "4d8**", "2 Claws/1 Bite/1 Horn", "1d4/1d4/1d6/1d4
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Gelatinous Cube", "12", "4d8**", "1", "2d4 + Paralysis", "20'", "1", "Fighter: 2", "12", "V", "280");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Ghast", "15", "2d8**", "2 Claws/1 Bite", "1d4/1d4/1d4 + Paralysis + Stench", "30'", "1d4 Wild/Lair 1d8", "Fighter: 2", "9", "B", "125");
+
