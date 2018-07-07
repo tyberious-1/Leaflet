@@ -243,3 +243,5 @@ values ("Gelatinous Cube", "12", "4d8**", "1", "2d4 + Paralysis", "20'", "1", "F
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Ghast", "15", "2d8**", "2 Claws/1 Bite", "1d4/1d4/1d4 + Paralysis + Stench", "30'", "1d4 Wild/Lair 1d8", "Fighter: 2", "9", "B", "125");
 
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Ghost*", "20‡", "10d8* (+9)", "1 Touch/1 Gaze", "1d8 + Special", "30'", "1", "Fighter: 10", "10", "E,N,O", "1390");
