@@ -121,7 +121,6 @@ values ("Dinosaur, Pterodactyl", "12", "1d8", "1 Bite", "1d4", "Fly 60' (10')", 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Dinosaur, Pteranodon", "13", "5d8", "1 Bite", "2d6", "Fly 60' (10')", "Wild 1d4", "Fighter: 3", "8", "None", "360");
 
-
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Dinosaur, Stegosaurus", "17", "11d8 (+9)", "1 Tail/1 Bite or 1 Trample", "2d8/1d6 or 2d8", "20' (15')", "Wild 1d4", "Fighter: 6", "7", "None", "1575");
 
@@ -145,7 +144,6 @@ values ("Dog, Riding", "14", "2d8", "1 Bite", "1d4 + 1 + Hold", "50'", "Domestic
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Doppleganger", "15", "4d8", "1 Fist", "1d12 or By Weapon", "30'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 4", "10", "E", "280");
-
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Dragon, Black", "18", "7d8**", "2 Claws/1 Bite or Breath/1 Tail", "1d6/1d6/2d10 or Breath/1d6", "30' Fly 80' (15')", "1, Wild 1, Lair 1d4", "Fighter: 7 (as Hit Dice)", "8", "H", "800");
@@ -245,3 +243,28 @@ values ("Ghast", "15", "2d8**", "2 Claws/1 Bite", "1d4/1d4/1d4 + Paralysis + Ste
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Ghost*", "20‡", "10d8* (+9)", "1 Touch/1 Gaze", "1d8 + Special", "30'", "1", "Fighter: 10", "10", "E,N,O", "1390");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Ghoul", "14", "2d8*", "2 Claws/1 Bite", "1d4/1d4/1d4 all + Paralysis", "30'", "1d6, Wild 2d8, Lair 2d8", "Fighter: 2", "9", "B", "100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Giant, Cloud", "19(13)", "12d8 + 3* (+10)", "1 Giant Weapon or 1 Thrown Rock", "6d6 or 3d6", "20' Unarmored 40' (10')", "1d2, Wild 1d3, Lair 1d3", "Fighter: 12", "10", "E Plus 1d12x1000 gp", "1975");
+
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Giant, Cyclops", "15(13)", "13d8* (+10)", "1 Giant Club or 1 Rock (Thrown)", "2d10 or 3d6", "20' Unarmored 30'", "1, Wild 1d4, Lair 1d4", "Fighter: 13", "9", "E Plus 1d8x1000 gp", "2285");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Giant, Fire", "17(13)", "11d8 + 2* (+9)", "1 Giant Weapon or 1 Thrown Rock", "5d6 or 3d6", "20' Unarmored 40' (10')", "1d2, Wild 1d3, Lair 1d3", "Fighter: 11", "9", "E Plus 1d10x1000 gp", "1670");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Giant, Frost", "17(13)", "10d8 + 1* (+9)", "1 Giant Weapon or 1 Thrown Rock", "4d6 or 3d6", "20' Unarmored 40' (10')", "1d2, Wild 1d4, Lair 1d4", "Fighter: 10", "9", "E Plus 1d10x1000 gp", "1390");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Giant, Hill", "15(13)", "8d8", "1 Giant Weapon (Club)", "2d8", "30' Unarmored 40'", "1d4, Wild 2d4, Lair 2d4", "Fighter: 8", "8", "E Plus 1d8x1000 gp", "875");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Giant, Stone", "17(15)", "9d8 (+8)", "1 Stone Club or 1 Thrown Rock", "3d6 or 3d6", "30' Unarmored 40'", "1d2, Wild 1d6, Lair 1d6", "Fighter: 9", "9", "E Plus 1d12x1000 gp", "1075");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Giant, Cloud", "19(13)", "15d8** (+11)", "1 Giant Weapon or 1 Lighting Bolt", "8d6 or 15d6", "30' Unarmored 50' (10')", "1, Wild 1d3, Lair 1d3", "Fighter: 15", "10", "E Plus 1d120x1000 gp", "3100");
