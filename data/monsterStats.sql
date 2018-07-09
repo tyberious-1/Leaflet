@@ -268,3 +268,6 @@ values ("Giant, Stone", "17(15)", "9d8 (+8)", "1 Stone Club or 1 Thrown Rock", "
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Giant, Cloud", "19(13)", "15d8** (+11)", "1 Giant Weapon or 1 Lighting Bolt", "8d6 or 15d6", "30' Unarmored 50' (10')", "1, Wild 1d3, Lair 1d3", "Fighter: 15", "10", "E Plus 1d120x1000 gp", "3100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Gnoll", "15(13)", "2d8", "1 Weapon", "2d4 or By Weapon + 1", "30' Unarmored 40'", "1d6, Wild 3d6, Lair 3d6", "Fighter: 2", "8", "Q, S each; D, K in Lair", "75");
