@@ -271,3 +271,9 @@ values ("Giant, Cloud", "19(13)", "15d8** (+11)", "1 Giant Weapon or 1 Lighting 
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Gnoll", "15(13)", "2d8", "1 Weapon", "2d4 or By Weapon + 1", "30' Unarmored 40'", "1d6, Wild 3d6, Lair 3d6", "Fighter: 2", "8", "Q, S each; D, K in Lair", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Gnome", "15(11)", "1d8", "1 Weapon", "1d6 or By Weapon", "20' Unarmored 40'", "1d8, Wild 5d8, Lair 5d8", "Fighter: 1 (With Dwarf Bonus)", "8", "D", "25");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Goblin", "14(11)", "1d8 -1", "1 Weapon", "1d6 or By Weapon", "20' Unarmored 30'", "2d4, Wild 6d10, Lair 6d10", "Fighter: 1", "7 or See Below", "R Each; C in Lair", "10");
