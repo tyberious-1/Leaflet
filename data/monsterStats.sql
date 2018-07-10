@@ -250,7 +250,6 @@ values ("Ghoul", "14", "2d8*", "2 Claws/1 Bite", "1d4/1d4/1d4 all + Paralysis", 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Giant, Cloud", "19(13)", "12d8 + 3* (+10)", "1 Giant Weapon or 1 Thrown Rock", "6d6 or 3d6", "20' Unarmored 40' (10')", "1d2, Wild 1d3, Lair 1d3", "Fighter: 12", "10", "E Plus 1d12x1000 gp", "1975");
 
-
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Giant, Cyclops", "15(13)", "13d8* (+10)", "1 Giant Club or 1 Rock (Thrown)", "2d10 or 3d6", "20' Unarmored 30'", "1, Wild 1d4, Lair 1d4", "Fighter: 13", "9", "E Plus 1d8x1000 gp", "2285");
 
@@ -277,3 +276,27 @@ values ("Gnome", "15(11)", "1d8", "1 Weapon", "1d6 or By Weapon", "20' Unarmored
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Goblin", "14(11)", "1d8 -1", "1 Weapon", "1d6 or By Weapon", "20' Unarmored 30'", "2d4, Wild 6d10, Lair 6d10", "Fighter: 1", "7 or See Below", "R Each; C in Lair", "10");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Golem, Amber*", "21‡", "10d8* (+9)", "2 Claws/1 Bite", "2d6/2d6/2d10", "60'", "1", "Fighter: 5", "12", "None", "1390");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Golem, Bone*", "19‡", "8d8*", "4 Weapon", "1d6/1d6/1d6/1d6 or By Weapon", "40' (10')", "1", "Fighter: 4", "12", "None", "945");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Golem, Bronze*", "20‡", "20d8** (+13)", "1 Fist + Special", "3d10 + Special", "80'", "1", "Fighter: 10", "12", "None", "5650");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Golem, Clay*", "22‡", "11d8** (+9)", "1 Fist", "3d10", "20'", "1", "Fighter: 6", "12", "None", "1765");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Golem, Flesh*", "20‡", "9d8** (+8)", "2 Fists", "2d8/2d8", "30'", "1", "Fighter: 5", "12", "None", "1225");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Golem, Iron*", "25‡", "17d8** (+12)", "1 + Special", "4d10 + Special", "20' (10')", "1", "Fighter: 9", "12", "None", "3890");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Golem, Stone*", "25‡", "14d8** (+11)", "1 + Special", "3d8 + Special", "20' (10')", "1", "Fighter: 7", "12", "None", "2730");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Golem, Wood*", "13‡", "2d8 + 2*", "1 Fist", "1d8", "40'", "1", "Fighter: 1", "12", "None", "100");
