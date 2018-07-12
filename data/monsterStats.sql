@@ -300,3 +300,6 @@ values ("Golem, Stone*", "25‡", "14d8** (+11)", "1 + Special", "3d8 + Special"
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Golem, Wood*", "13‡", "2d8 + 2*", "1 Fist", "1d8", "40'", "1", "Fighter: 1", "12", "None", "100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Gorgon", "19", "8d8*", "1 Gore or 1 Breath", "2d6 or Petrification", "40' (10')", "Wild 1d4", "Fighter: 8", "8", "None", "945");
