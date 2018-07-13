@@ -303,3 +303,6 @@ values ("Golem, Wood*", "13‡", "2d8 + 2*", "1 Fist", "1d8", "40'", "1", "Fight
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Gorgon", "19", "8d8*", "1 Gore or 1 Breath", "2d6 or Petrification", "40' (10')", "Wild 1d4", "Fighter: 8", "8", "None", "945");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Gray Ooze", "12", "3d8*", "1 Pseudopod", "2d8", "1'", "1", "Fighter: 3", "12", "None", "175");
