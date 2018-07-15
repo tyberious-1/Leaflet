@@ -306,3 +306,9 @@ values ("Gorgon", "19", "8d8*", "1 Gore or 1 Breath", "2d6 or Petrification", "4
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Gray Ooze", "12", "3d8*", "1 Pseudopod", "2d8", "1'", "1", "Fighter: 3", "12", "None", "175");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Green Slime*", "Hit Only by Fire or Cold", "2d8**", "1 Special", "Special", "1'", "1", "Fighter: 2", "12", "None", "125");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Griffon", "18", "7d8", "2 Claws/1 Bite", "1d4/1d4/2d8", "40' (10') Fly 120' (10')", "Wild 2d8, Lair 2d8", "Fighter: 7", "8", "E", "670");
