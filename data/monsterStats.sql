@@ -315,3 +315,6 @@ values ("Griffon", "18", "7d8", "2 Claws/1 Bite", "1d4/1d4/2d8", "40' (10') Fly 
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Hangman Tree", "16", "5d8", "4 Limbs Plus Strangle", "1d6 Per Limb or Strangle", "0'", "Wild 1", "Fighter: 4", "12", "None", "360");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Harpy", "13", "2d8*", "2 Claws/1 Weapon + Special", "1d4/1d4/1d6 or By Weapon + Special", "20' Fly 50' (10')", "1d6, Wild 2d4, Lair 2d4", "Fighter: 2", "7", "C", "100");
