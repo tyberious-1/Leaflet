@@ -318,3 +318,9 @@ values ("Hangman Tree", "16", "5d8", "4 Limbs Plus Strangle", "1d6 Per Limb or S
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Harpy", "13", "2d8*", "2 Claws/1 Weapon + Special", "1d4/1d4/1d6 or By Weapon + Special", "20' Fly 50' (10')", "1d6, Wild 2d4, Lair 2d4", "Fighter: 2", "7", "C", "100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Hawk, Normal", "12", "1d4", "1 Claw or 1 Bite", "1d2", "Fly 150'", "Wild 1d6, Lair 1d6", "Fighter: 1", "7", "None", "10");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Hawk, Giant", "14", "1d6", "1 Claw or 1 Bite", "1d6", "Fly 150' (10')", "Wild 1d3, Lair 1d3", "Fighter: 4", "8", "None", "240");

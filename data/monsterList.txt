@@ -99,7 +99,8 @@ Green Slime
 Griffon
 Hangman Tree
 Harpy
-Hawk
+Hawk, Normal
+Hawk, Giant
 Hellhound
 Hippogriff
 Hobgoblin
