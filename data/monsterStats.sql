@@ -327,3 +327,6 @@ values ("Hawk, Giant", "14", "1d6", "1 Claw or 1 Bite", "1d6", "Fly 150' (10')",
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Hellhound", "14 to 18", "3d8** to 7d8**", "1 Bite or 1 Breath", "1d6 or 1d6 per Hit Die", "40'", "2d4, Wild 2d4, Lair 2d4", "Fighter: 3 to 7 (Same as Hit Dice)", "9", "C", "205-800");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Hippogriff", "15", "3d8", "2 Claws/ 1 Bite", "1d6/1d6/1d10", "60' (10') Fly 120' (10')", "Wild 2d8", "Fighter: 3", "8", "None", "145");
