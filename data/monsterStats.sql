@@ -330,3 +330,9 @@ values ("Hellhound", "14 to 18", "3d8** to 7d8**", "1 Bite or 1 Breath", "1d6 or
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Hippogriff", "15", "3d8", "2 Claws/ 1 Bite", "1d6/1d6/1d10", "60' (10') Fly 120' (10')", "Wild 2d8", "Fighter: 3", "8", "None", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Hobgoblin", "14", "1d8", "1 Weapon", "1d8 or By Weapon", "30' Unarmored 40'", "1d6, Wild 2d4, Lair 4d8", "Fighter: 1", "8", "Q, R each; D, K in Lair", "25");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Hydra", "16 to 23", "5d8 to 12d8 (+10)", "5 to 12 Bites", "1d10 per Bite", "40' (10')", "1, Wild 1, Lair 1", "Fighter: 5 to 12", "9", "B", "360 - 1875");
