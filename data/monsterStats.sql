@@ -336,3 +336,9 @@ values ("Hobgoblin", "14", "1d8", "1 Weapon", "1d8 or By Weapon", "30' Unarmored
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Hydra", "16 to 23", "5d8 to 12d8 (+10)", "5 to 12 Bites", "1d10 per Bite", "40' (10')", "1, Wild 1, Lair 1", "Fighter: 5 to 12", "9", "B", "360 - 1875");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Hyena", "13", "2d8 + 1", "1 Bite", "1d6", "60'", "1d8", "Fighter: 2", "8", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Hyenodon", "13", "3d8 + 1", "1 Bite", "1d8", "40'", "1d6, Wild 1d8, Lair 1d8 ", "Fighter: 3", "8", "None", "145");
