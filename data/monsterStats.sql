@@ -342,3 +342,9 @@ values ("Hyena", "13", "2d8 + 1", "1 Bite", "1d6", "60'", "1d8", "Fighter: 2", "
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Hyenodon", "13", "3d8 + 1", "1 Bite", "1d8", "40'", "1d6, Wild 1d8, Lair 1d8 ", "Fighter: 3", "8", "None", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Insect Swarm", "Immune to Normal Weapons, Including Most Magical Types", "2d8* to 4d8*", "1 Swarm", "1d3(Double Against No Armor)", "10' Fly 20'", "1 Swarm, Wild 1d3 Swarms", "N/A", "11", "None", "100-280");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Invisible Stalker", "19", "8d8*", "1", "4d4", "40'", "1 (Special) ", "Fighter: 8", "12", "None", "945");
