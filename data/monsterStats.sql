@@ -348,3 +348,6 @@ values ("Insect Swarm", "Immune to Normal Weapons, Including Most Magical Types"
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Invisible Stalker", "19", "8d8*", "1", "4d4", "40'", "1 (Special) ", "Fighter: 8", "12", "None", "945");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Jaguar", "16", "4d8", "2 Claws/1 Bite", "1d4/1d4/2d4", "70' Swim 30'", "1d2, Wild 1d6 ", "Fighter: 4", "8", "None", "240");
