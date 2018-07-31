@@ -360,3 +360,12 @@ values ("Leech, Giant", "17", "6d8", "1 Bite + Hold", "1d6 + 1d6/Round", "30'", 
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Lion", "14", "5d8", "2 Claws/1 Bite", "1d6/1d6/1d10", "50'", "Wild 1d8", "Fighter: 5", "9", "None", "360");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Living Statue, Crystal", "16", "3d8", "2 Fist", "1d6/1d6", "30'", "1d6", "Fighter: 3", "12", "None", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Living Statue, Iron", "18", "4d8*", "2 Fist", "1d8/1d8 + Special", "10'", "1d4", "Fighter: 4", "12", "None", "280");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Living Statue, Stone", "16", "5d8*", "2 Lava Sprays", "2d6/2d6", "20'", "1d3", "Fighter: 5", "12", "None", "405");
