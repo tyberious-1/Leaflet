@@ -369,3 +369,9 @@ values ("Living Statue, Iron", "18", "4d8*", "2 Fist", "1d8/1d8 + Special", "10'
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Living Statue, Stone", "16", "5d8*", "2 Lava Sprays", "2d6/2d6", "20'", "1d3", "Fighter: 5", "12", "None", "405");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lizard, Giant Draco", "15", "4d8 + 2*", "1 Bite", "1d10", "40' Fly 70' (20', and See Below)", "1d4, Wild 1d8", "Fighter: 3", "7", "None", "240");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lizard, Giant Gecko", "15", "3d8 + 1*", "1 Bite", "1d8", "40' (Special)", "1d6, Wild 1d10", "Fighter: 2", "7", "None", "145");
