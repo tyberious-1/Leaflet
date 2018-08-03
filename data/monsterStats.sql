@@ -375,3 +375,12 @@ values ("Lizard, Giant Draco", "15", "4d8 + 2*", "1 Bite", "1d10", "40' Fly 70' 
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Lizard, Giant Gecko", "15", "3d8 + 1*", "1 Bite", "1d8", "40' (Special)", "1d6, Wild 1d10", "Fighter: 2", "7", "None", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lizard, Giant Horned Chameleon", "18", "5d8", "1 Tongue or 1 Bite", "Grab or 2d6", "40' (10')", "1d3, Wild 1d6", "Fighter: 4", "7", "None", "360");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lizard, Giant Tuatara", "16", "6d8", "2 Claws/1 Bite", "1d4/1d4/2d6", "40' (10')", "1d2, Wild 1d4", "Fighter: 5", "6", "None", "500");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lizard Man", "15 (12)", "2d8", "1 Weapon", "1d6 + 1 or By Weapon + 1", "20' Unarmored 30' Swim 40' (Not in Armor)", "2d4, Wild 2d4, Lair 6d6", "Fighter: 2", "11", "D", "75");
