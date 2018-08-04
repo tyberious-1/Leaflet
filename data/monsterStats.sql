@@ -384,3 +384,18 @@ values ("Lizard, Giant Tuatara", "16", "6d8", "2 Claws/1 Bite", "1d4/1d4/2d6", "
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Lizard Man", "15 (12)", "2d8", "1 Weapon", "1d6 + 1 or By Weapon + 1", "20' Unarmored 30' Swim 40' (Not in Armor)", "2d4, Wild 2d4, Lair 6d6", "Fighter: 2", "11", "D", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lycanthrope, Werebear*", "18†", "6d8*", "2 Claws/1 Bite + Hug", "2d4/2d4/2d8 + 2d8", "40'", "2d4, Wild 1d4, Lair 1d4", "Fighter: 6", "10", "C", "555");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lycanthrope, Wereboar*", "16†", "4d8*", "1 Bite", "2d6", "50' Human Form 40'", "1d4, Wild 2d4, Lair 2d4", "Fighter: 4", "9", "C", "280");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lycanthrope, Wererat*", "13†", "3d8*", "1 Bite or 1 Weapon", "1d4 or 1d6 or By Weapon", "40'", "1d8, Wild 2d8, Lair 2d8", "Fighter: 3", "8", "C", "175");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lycanthrope, Weretiger*", "17†", "5d8*", "2 Claws/1 Bite", "1d6/1d6/2d6", "50' Human Form 40'", "1d4, Wild 1d4, Lair 1d4", "Fighter: 5", "9", "C", "405");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Lycanthrope, Werewolf*", "15†", "4d8*", "1 Bite", "2d4", "60' Human Form 40'", "1d6, Wild 2d6, Lair 2d6", "Fighter: 4", "8", "C", "280");
