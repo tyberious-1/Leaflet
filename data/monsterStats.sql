@@ -402,3 +402,6 @@ values ("Lycanthrope, Werewolf*", "15†", "4d8*", "1 Bite", "2d4", "60' Human F
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Manticore", "18†", "6d8 + 1*", "2 Claws/1 Bite or 6 Spikes (180' range)", "1d4/1d4/2d4 or 1d6 Per Spike", "40' Fly 60' (10')", "1d2, Wild 1d4, Lair 1d4", "Fighter: 6", "9", "D", "555");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Mastodon", "18", "15d8 + (11)*", "2 Tusks or 1 Trample", "2d6/2d6 or 4d8", "40' (15')", "Wild 2d8", "Fighter: 15", "8", "Special", "2975");
