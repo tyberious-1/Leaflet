@@ -405,3 +405,18 @@ values ("Manticore", "18†", "6d8 + 1*", "2 Claws/1 Bite or 6 Spikes (180' rang
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Mastodon", "18", "15d8 + (11)*", "2 Tusks or 1 Trample", "2d6/2d6 or 4d8", "40' (15')", "Wild 2d8", "Fighter: 15", "8", "Special", "2975");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Medusa", "12", "4d8**", "1 Snakebite + Gaze", "1d6 + Poison + Petrification", "30'", "1d3, Wild 1d4, Lair 1d4", "Fighter: 4", "8", "F", "320");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Mermaid", "12", "1d8*", "1 Weapon", "1d6 or By Weapon", "Swim 40'", "Wild 1d2, 3d6 (See Below)", "Fighter: 1", "8", "A", "37");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Minotaur", "14 (12)", "6d8", "1 Gore/1 Bite or 1 Weapon", "1d6/1d6 or By Weapon + 2", "30' Unarmored 40'", "1d6, Wild 1d8, Lair 1d8", "Fighter: 6", "11", "C", "500");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Mountain Lion", "14", "3d8 + 2", "2 claws/1 Bite", "1d4/1d4/1d6", "50'", "Wild 1d4, Lair 1d4", "Fighter: 3", "8", "None", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Mummy*", "17‡", "5d8**", "1 Touch + Disease", "1d12 + Disease", "20'", "1d4, Lair 1d12", "Fighter: 5", "12", "D", "450");
