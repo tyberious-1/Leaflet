@@ -420,3 +420,6 @@ values ("Mountain Lion", "14", "3d8 + 2", "2 claws/1 Bite", "1d4/1d4/1d6", "50'"
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Mummy*", "17‡", "5d8**", "1 Touch + Disease", "1d12 + Disease", "20'", "1d4, Lair 1d12", "Fighter: 5", "12", "D", "450");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Nixie", "16", "1d8*", "1 Dagger", "1d4", "40' Swim 40'", "Wild 2d20, Lair 2d20", "Fighter: 2", "6", "B", "37");
