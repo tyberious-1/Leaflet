@@ -423,3 +423,18 @@ values ("Mummy*", "17‡", "5d8**", "1 Touch + Disease", "1d12 + Disease", "20'"
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Nixie", "16", "1d8*", "1 Dagger", "1d4", "40' Swim 40'", "Wild 2d20, Lair 2d20", "Fighter: 2", "6", "B", "37");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Orchre Jelly*", "12(Only Hit By Fire or Cold", "5d8*", "1 Pseudopod", "2d6", "10'", "1", "Fighter: 5", "12", "None", "405");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Octopus, Giant", "19", "8d8", "8 Tentacles/1 Bite", "1d4 Per Tentacle/1d6", "Swim 30'", "Wild 1d2", "Fighter: 8", "7", "None", "875");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Orge", "15(12)", "4d8+1", "1 Weapon", "2d6", "30' Unarmored 40'", "1d6, Wild 2d6, Lair 2d6", "Fighter: 4", "10", "C + 1d20x100 gp", "240");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Orc", "14(11)", "1d8", "1 Weapon", "1d8 or By Weapon", "30' Unarmored 40'", "2d4, Wild 3d6, Lair 10d6", "Fighter: 1", "8", "Q, R Each; D in Lair", "25");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Owlbear", "15", "5d8", "2 Claws/1 Bite + 1 Hug", "1d8/1d8/1d8 + 2d8", "40'", "1d4, Wild 1d4, Lair 1d4", "Fighter: 5", "9", "C", "360");
