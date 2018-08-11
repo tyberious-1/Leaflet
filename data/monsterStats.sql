@@ -438,3 +438,12 @@ values ("Orc", "14(11)", "1d8", "1 Weapon", "1d8 or By Weapon", "30' Unarmored 4
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Owlbear", "15", "5d8", "2 Claws/1 Bite + 1 Hug", "1d8/1d8/1d8 + 2d8", "40'", "1d4, Wild 1d4, Lair 1d4", "Fighter: 5", "9", "C", "360");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Pegasus", "15", "4d8", "2 Hooves", "1d6/1d6", "80' (10') Fly 160' (10')", "Wild 1d12", "Fighter: 2", "8", "None", "240");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Pixie", "17", "1d8*", "1 Dagger", "1d4", "30' Fly 60'", "2d4, Wild 10d4, Lair 10d4", "Fighter: 1 (With Elf Bonuses)", "7", "R, S", "37");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Purple Worm", "16", "11d8 (+9)* to 20 (+13)*", "1 Bite/1 Sting", "2d8/1d8 + Poison", "20' (15')", "1d2, Wild 1d4", "Fighter: 6 to 10 (1/2 of Hit Dice)", "10", "None", "1670-5450");
