@@ -142,7 +142,8 @@ Owlbear
 Pegasus
 Pixie
 Purple Worm
-Rat
+Rat (Normal)
+Rat (Giant)
 Rhagodessa, Giant
 Rhinoceros
 Roc

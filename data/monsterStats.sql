@@ -447,3 +447,9 @@ values ("Pixie", "17", "1d8*", "1 Dagger", "1d4", "30' Fly 60'", "2d4, Wild 10d4
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Purple Worm", "16", "11d8 (+9)* to 20 (+13)*", "1 Bite/1 Sting", "2d8/1d8 + Poison", "20' (15')", "1d2, Wild 1d4", "Fighter: 6 to 10 (1/2 of Hit Dice)", "10", "None", "1670-5450");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Rat (Normal)", "11", "1 Hit Point", "1 Bite per Pack", "1d6 + Disease", "20' Swim 10'", "5d10, Wild 5d10, Lair 5d10", "Normal Man", "5", "None", "360");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Rat (Giant)", "13", "1d4 Hit Points", "1 Bite", "1d4 + Disease", "40' Swim 20'", "3d6, Wild 3d10, Lair 3d10", "Fighter: 1", "8", "C", "10");
