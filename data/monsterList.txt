@@ -145,7 +145,8 @@ Purple Worm
 Rat (Normal)
 Rat (Giant)
 Rhagodessa, Giant
-Rhinoceros
+Rhinoceros (Black)
+Rhinoceros (Wolly)
 Roc
 Rock Baboon
 Rot Grub

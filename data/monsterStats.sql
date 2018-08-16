@@ -453,3 +453,12 @@ values ("Rat (Normal)", "11", "1 Hit Point", "1 Bite per Pack", "1d6 + Disease",
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Rat (Giant)", "13", "1d4 Hit Points", "1 Bite", "1d4 + Disease", "40' Swim 20'", "3d6, Wild 3d10, Lair 3d10", "Fighter: 1", "8", "C", "10");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Rhagodessa, Giant", "16", "4d8", "2 Legs/1 Bite", "Grab/Grab/2d8", "50'", "1d4, Wild 1d6, Lair 1d6", "Fighter: 4", "9", "U", "240");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Rhinoceros (Black)", "17", "8d8", "1 Butt or 1 Trample", "2d6 or 2d8", "40' (15')", "Wild 1d12", "Fighter: 6", "6", "None", "875");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Rhinoceros (Wolly)", "19", "12d8 (+ 10)", "1 Butt or 1 Trample", "2d8 or 2d12", "40' (15')", "Wild 1d8", "Fighter: 8", "6", "None", "1875");
