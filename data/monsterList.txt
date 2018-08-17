@@ -147,7 +147,9 @@ Rat (Giant)
 Rhagodessa, Giant
 Rhinoceros (Black)
 Rhinoceros (Wolly)
-Roc
+Roc (Normal)
+Roc (Large)
+Roc (Giant)
 Rock Baboon
 Rot Grub
 Rust Monster
