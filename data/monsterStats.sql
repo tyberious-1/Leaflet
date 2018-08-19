@@ -471,3 +471,6 @@ values ("Roc (Large)", "18", "12d8 (+ 10)", "2 Claws/1 Bite", "1d8/1d8/2d10", "2
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Roc (Giant)", "18", "32d8 (+ 16)", "2 Claws/1 Bite", "3d6/3d6/6d6", "20' Fly 160' (10')", "Wild 1", "Fighter: 20 at + 5", "10", "1", "14250");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Rock Baboon", "14", "2d8", "1 Club/1 Bite", "1d6/1d4", "40'", "2d6, Wild 2d6, Lair 5d6", "Fighter: 2", "8", "None", "75");
