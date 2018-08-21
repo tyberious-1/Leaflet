@@ -474,3 +474,9 @@ values ("Roc (Giant)", "18", "32d8 (+ 16)", "2 Claws/1 Bite", "3d6/3d6/6d6", "20
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Rock Baboon", "14", "2d8", "1 Club/1 Bite", "1d6/1d4", "40'", "2d6, Wild 2d6, Lair 5d6", "Fighter: 2", "8", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Rot Grub", "10", "1 HP", "1 Bite", "Special", "5'", "5d4", "Fighter: 1", "12", "None", "10");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Rust Monster", "18", "5d8*", "1 Antenna", "Special", "40'", "1d4", "Fighter: 5", "7", "None", "405");
