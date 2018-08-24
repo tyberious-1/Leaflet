@@ -480,3 +480,7 @@ values ("Rot Grub", "10", "1 HP", "1 Bite", "Special", "5'", "5d4", "Fighter: 1"
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Rust Monster", "18", "5d8*", "1 Antenna", "Special", "40'", "1d4", "Fighter: 5", "7", "None", "405");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Sabre-Tooth Cat", "14", "8d8", "2 Claws/1 Bite", "1d6/1d6/2d8", "50'", "Wild 1d4, Lair 1d4", "Fighter: 8", "10", "None", "875");
+
