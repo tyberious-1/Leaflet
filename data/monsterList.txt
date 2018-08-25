@@ -154,7 +154,8 @@ Rock Baboon
 Rot Grub
 Rust Monster
 Sabre-Tooth Cat
-Salamander
+Salamander (Flame)
+Salamander (Frost)
 Scorpion, Giant
 Sea Serpent
 Shadow

@@ -484,3 +484,8 @@ values ("Rust Monster", "18", "5d8*", "1 Antenna", "Special", "40'", "1d4", "Fig
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Sabre-Tooth Cat", "14", "8d8", "2 Claws/1 Bite", "1d6/1d6/2d8", "50'", "Wild 1d4, Lair 1d4", "Fighter: 8", "10", "None", "875");
 
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Salamander (Flame)", "19‡", "8d8*", "2 Claws/1 Bite + Heat", "1d4/1d4/1d8 + 1d8/Round", "40'", "1d4 + 1, Wild 2d4, Lair 2d4", "Fighter: 8", "8", "F", "945");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Salamander (Frost)", "21‡", "12d8* (+10)", "4 Claws/1 Bite + Cold", "1d6/1d6/1d6/1d6/2d6 + 1d8/Round", "40'", "1d3, Wild 1d3, Lair 1d3", "Fighter: 12", "9", "E", "1975");
