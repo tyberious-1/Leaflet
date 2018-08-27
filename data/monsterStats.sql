@@ -489,3 +489,12 @@ values ("Salamander (Flame)", "19‡", "8d8*", "2 Claws/1 Bite + Heat", "1d4/1d4
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Salamander (Frost)", "21‡", "12d8* (+10)", "4 Claws/1 Bite + Cold", "1d6/1d6/1d6/1d6/2d6 + 1d8/Round", "40'", "1d3, Wild 1d3, Lair 1d3", "Fighter: 12", "9", "E", "1975");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Scorpion, Giant", "15", "4d8*", "2 Claws/1 Stinger", "1d10/1d10/1d6 + Poison", "50'", "1d6, Wild 1d6", "Fighter: 2", "11", "None", "280");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Sea Serpent", "17", "6d8", "1 Bite", "2d6", "Swim 50' (10')", "Wild 2d6", "Fighter: 6", "8", "None", "500");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Shadow", "13‡", "2d8*", "1 Touch", "1d4 + 1 point Strength Loss", "30'", "1d10, Wild 1d10, Lair 1d10", "Fighter: 2", "12", "F", "100");
