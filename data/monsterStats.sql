@@ -498,3 +498,12 @@ values ("Sea Serpent", "17", "6d8", "1 Bite", "2d6", "Swim 50' (10')", "Wild 2d6
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Shadow", "13‡", "2d8*", "1 Touch", "1d4 + 1 point Strength Loss", "30'", "1d10, Wild 1d10, Lair 1d10", "Fighter: 2", "12", "F", "100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Shark, Bull", "13", "2d8", "1 Bite", "2d4", "Swim 60' (10')", "Wild 3d6", "Fighter: 2", "7", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Shark, Great White", "19", "8d8", "1 Bite", "2d10", "Swim 60' (10')", "Wild 1d4", "Fighter: 8", "8", "None", "875");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Shark, Mako", "15", "4d8", "1 Bite", "2d6", "Swim 80'", "Wild 2d6", "Fighter: 4", "7", "None", "240");
