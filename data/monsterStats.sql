@@ -510,3 +510,10 @@ values ("Shark, Mako", "15", "4d8", "1 Bite", "2d6", "Swim 80'", "Wild 2d6", "Fi
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Shrew, Giant", "16", "1d8*", "2 Bites", "1d6/1d6", "60'", "1d4, Wild 1d8, Lair 1d8", "Fighter: 2", "10", "None", "37");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Shrieker", "13", "3d8", "Special", "None", "5'", "1d8", "Fighter: 1", "12", "None", "145");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Skeleton", "13", "1d8", "1 Weapon", "1d6 or By Weapon", "40'", "3d6, Wild 3d10", "Fighter: 1", "12", "None", "25");
+
