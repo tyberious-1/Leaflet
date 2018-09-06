@@ -517,3 +517,17 @@ values ("Shrieker", "13", "3d8", "Special", "None", "5'", "1d8", "Fighter: 1", "
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Skeleton", "13", "1d8", "1 Weapon", "1d6 or By Weapon", "40'", "3d6, Wild 3d10", "Fighter: 1", "12", "None", "25");
 
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Snake, Giant Rattlesnake", "15", "2d8*", "1 Bite", "1d8 + Poison", "40'", "1d2, Wild 1d2, Lair 1d2", "Fighter: 2", "8", "None", "100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Snake, Pit Viper", "14", "1d8*", "1 Bite", "1d4 + Poison", "30'", "1d4, Wild 1d4, Lair 1d4", "Fighter: 1", "7", "None", "37");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Snake, Python", "14", "5d8*", "1 Bite/1 Constrict", "1d4/2d4", "30'", "1d3, Wild 1d3, Lair 1d3", "Fighter: 5", "8", "None", "405");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Snake, Sea", "14", "3d8*", "1 Bite", "1 + Poison", "10' Swim 30'", "Wild 1d8", "Fighter: 3", "7", "None", "175");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Snake, Spitting Cobra", "13", "1d8*", "1 Bite or 1 Spit", "1d4 + Poison or Blindness", "30'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 1", "7", "None", "37");
