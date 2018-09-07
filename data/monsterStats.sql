@@ -531,3 +531,6 @@ values ("Snake, Sea", "14", "3d8*", "1 Bite", "1 + Poison", "10' Swim 30'", "Wil
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Snake, Spitting Cobra", "13", "1d8*", "1 Bite or 1 Spit", "1d4 + Poison or Blindness", "30'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 1", "7", "None", "37");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Spectre*", "17‡", "6d8**", "1 Touch", "Energy Drain 2 Levels/Touch", "Fly 100'", "1d4, Lair 1d8", "Fighter: 6", "11", "E", "610");
