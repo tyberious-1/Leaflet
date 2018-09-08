@@ -534,3 +534,12 @@ values ("Snake, Spitting Cobra", "13", "1d8*", "1 Bite or 1 Spit", "1d4 + Poison
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Spectre*", "17‡", "6d8**", "1 Touch", "Energy Drain 2 Levels/Touch", "Fly 100'", "1d4, Lair 1d8", "Fighter: 6", "11", "E", "610");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Spider, Giant Black Widow", "14", "3d8*", "1 Bite", "2d6 + Poison", "20' Web 40'", "1d3, Wild 1d3, Lair 1d3", "Fighter: 3", "8", "None", "175");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Spider, Giant Crab", "13", "2d8*", "1 Bite", "1d8 + Poison", "40'", "1d4, Wild 1d4, Lair 1d4", "Fighter: 2", "7", "None", "100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Spider, Giant Tarantula", "15", "4d8*", "1 Bite", "1d8 + Poison", "50'", "1d3, Wild 1d3, Lair 1d3", "Fighter: 4", "8", "None", "280");
