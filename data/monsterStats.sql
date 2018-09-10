@@ -546,3 +546,6 @@ values ("Spider, Giant Tarantula", "15", "4d8*", "1 Bite", "1d8 + Poison", "50'"
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Sprite", "15", "1d4 Hit Points*", "1 Dagger or 1 Spell", "1d4 or By Spell", "20' Fly 60'", "3d6, Wild 3d6, Lair 5d8", "Magic-User: 4 (with Elf Bonus)", "7", "S", "13");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Squid, Giant", "17", "6d8", "8 Tentacles/1 Bite", "1d4 Per Tentacle/1d10", " Swim 40'", "Wild 1d4", "Fighter: 6", "8", "None", "500");
