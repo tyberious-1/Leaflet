@@ -10,6 +10,7 @@ Project is in early Alpha stages please check back for progress updates
 
 # Timeline Features
 - Monster Stat Tab
+- Save Tables
 
 # Using the Program
 1. Install Python
