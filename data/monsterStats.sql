@@ -549,3 +549,6 @@ values ("Sprite", "15", "1d4 Hit Points*", "1 Dagger or 1 Spell", "1d4 or By Spe
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Squid, Giant", "17", "6d8", "8 Tentacles/1 Bite", "1d4 Per Tentacle/1d10", " Swim 40'", "Wild 1d4", "Fighter: 6", "8", "None", "500");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Tentacle Worm", "13", "3d8*", "6 Tentacles", "Paralysis", "40'", "1d3, Lair 1d3", "Fighter: 3", "9", "B", "175");
