@@ -552,3 +552,18 @@ values ("Squid, Giant", "17", "6d8", "8 Tentacles/1 Bite", "1d4 Per Tentacle/1d1
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Tentacle Worm", "13", "3d8*", "6 Tentacles", "Paralysis", "40'", "1d3, Lair 1d3", "Fighter: 3", "9", "B", "175");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Tiger", "14", "6d8", "2 Claws/1 Bite", "1d6/1d6/2d6", "50'", "Wild 1d3, Lair 1d3", "Fighter: 6", "9", "None", "500");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Titanothere", "15", "12d8 (+10)", "1 Butt or 1 Trample", "2d6 or 3d8", "40' (10')", "Wild 1d6", "Fighter: 8", "7", "None", "1875");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Treant", "19", "8d8*", "2 Fist", "2d6/2d6", "20'", "Wild 1d8, Lair 1d8", "Fighter: 8", "9", "C", "945");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Troglodyte", "15", "2d8", "2 Claws/1 Bite", "1d4/1d4/1d4", "40'", "1d8, Lair 5d8", "Fighter: 2", "9", "A", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Troll", "16", "6d8*", "2 Claws/1 Bite", "1d6/1d6/1d10", "40'", "1d8, Wild 1d8, Lair 1d8", "Fighter: 6", "10(8)", "D", "555");
