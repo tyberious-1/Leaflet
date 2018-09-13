@@ -183,7 +183,8 @@ Titanothere
 Treant
 Troglodyte
 Troll
-Unicorn(and Alicorn)
+Unicorn
+Alicorn
 Vampire
 Water Termite, Giant
 Weasel, Giant(or Ferret, Giant)

@@ -567,3 +567,9 @@ values ("Troglodyte", "15", "2d8", "2 Claws/1 Bite", "1d4/1d4/1d4", "40'", "1d8,
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Troll", "16", "6d8*", "2 Claws/1 Bite", "1d6/1d6/1d10", "40'", "1d8, Wild 1d8, Lair 1d8", "Fighter: 6", "10(8)", "D", "555");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Unicorn", "19", "4d8*", "2 Hooves/1 Horn (+3 Attack Bonus)", "1d8/1d8/1d6+3", "80'", "Wild 1d6", "Fighter: 8", "7", "None", "280");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Unicorn", "19", "4d8*", "2 Hooves/1 Horn", "2d4/2d4/2d6", "70'", "Wild 1d8", "Fighter: 6", "9", "None", "280");
