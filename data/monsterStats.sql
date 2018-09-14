@@ -573,3 +573,6 @@ values ("Unicorn", "19", "4d8*", "2 Hooves/1 Horn (+3 Attack Bonus)", "1d8/1d8/1
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Unicorn", "19", "4d8*", "2 Hooves/1 Horn", "2d4/2d4/2d6", "70'", "Wild 1d8", "Fighter: 6", "9", "None", "280");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Vampire", "18 to 20‡", "7d8** to 9d8** (+8)", "1 Weapon or Special", "1d8 or By Weapon or Special", "40' Fly 60'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 7 to 9 (as Hit Dice)", "11", "F", "800-1225");
