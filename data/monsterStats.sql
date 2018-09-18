@@ -582,3 +582,12 @@ values ("Water Termite, Giant", "13", "1d8 to 4d8", "1 Spray", "Stun", "Swim 30'
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Weasel, Giant (or Ferret, Giant)", "17", "5d8", "1 Bite + Hold", "2d4 + 2d4 per Round", "50'", "1d4, Wild 1d6, Lair 1d6", "Fighter: 5", "8", "V", "360");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Whale, Killer", "17", "6d8", "1 Bite", "2d10", "Swim 80' (10')", "Wild 1d6", "Fighter: 6", "10", "None", "500");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Whale, Narwhal", "19", "12d8 (+10)", "1 Horn", "2d6", "Swim 60'", "Wild 1d4", "Fighter: 6", "8", "Special", "1875");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Whale, Sperm", "22", "36d8* (+16)", "1 Bite or Special", "3d20", "Swim 60' (20')", "Wild 1d3", "Fighter: 8", "7", "None", "17850");
