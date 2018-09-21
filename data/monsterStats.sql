@@ -594,3 +594,9 @@ values ("Whale, Sperm", "22", "36d8* (+16)", "1 Bite or Special", "3d20", "Swim 
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Wight", "15 †", "3d8*", "1 Touch", "Energy Drain(1 Level)", "30'", "1d6, Wild 1d8, Lair 1d8", "Fighter: 3", "12", "B", "175");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Wolf, Normal", "13", "2d8", "1 Bite", "1d6", "60'", "2d6, Wild 3d6, Lair 3d6", "Fighter: 2", "8", "None", "75");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Wolf, Dire", "14", "4d8", "1 Bite", "2d4", "50'", "1d4, Wild 2d4, Lair 2d4", "Fighter: 4", "9", "None", "240");

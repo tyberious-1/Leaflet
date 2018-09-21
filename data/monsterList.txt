@@ -192,7 +192,8 @@ Whale, Killer
 Whale, Narwhal
 Whale, Sperm
 Wight
-Wolf
+Wolf. Normal
+Wolf, Dire
 Wraith
 Wyvern
 Yellow Mold
