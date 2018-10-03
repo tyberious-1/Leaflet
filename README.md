@@ -1,4 +1,7 @@
 # Leaflet
+!!!Important Announcement!!!
+***This project is on hold due to a diffcult Java Programming Class I am taking***
+***Will return to this project after this term***
 Leaflet is a digital GM screen designed for use with the Basic Fantasy RPG (www.basicfantasy.org).
 
 # Project Status
