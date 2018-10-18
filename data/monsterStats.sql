@@ -600,3 +600,18 @@ values ("Wolf, Normal", "13", "2d8", "1 Bite", "1d6", "60'", "2d6, Wild 3d6, Lai
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Wolf, Dire", "14", "4d8", "1 Bite", "2d4", "50'", "1d4, Wild 2d4, Lair 2d4", "Fighter: 4", "9", "None", "240");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Wraith*", "15‡", "4d8**", "1 Touch", "1d6 + Energy Drain(1 Level)", "Fly 80'", "1d4, Lair 1d6", "Fighter: 4", "12", "E", "320");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Wolf, Dire", "14", "4d8", "1 Bite", "2d4", "50'", "1d4, Wild 2d4, Lair 2d4", "Fighter: 4", "9", "None", "240");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Wyvern", "18", "7d8*", "1 Bite/1 Stinger or 2 Talons/1 Stinger", "2d8/1d6 + Poison or 1d10/1d10/1d6 + Poison", "30'(10') Fly 80' (15')", "Wild 1d6, Lair 1d6", "Fighter: 7", "9", "E", "735");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Yellow Mold", "Can always be hit", "2d8*", "Special", "See Below", "0'", "1d8", "Normal Man", "N/A", "None", "100");
+
+insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
+values ("Zombie", "12", "2d8", "1 Weapon", "1d8 or By Weapon", "20'", "2d4, Wild 4d6", "Fighter: 2", "12", "None", "75");
