@@ -1,4 +1,3 @@
-/*
 create table monsterstats(
     monname text primary key,
     armorclass text,
@@ -12,12 +11,12 @@ create table monsterstats(
     treasuretype text,
     xp text
 );
-*/
 
-/*
+
+
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Ant, Giant", "17", "4d8", "1 bite", "2d6", "60' (10')", "2d6, Wild 2d6, Lair 4d6", "Fighter: 4", "7 on first sighting, 12 after engaged", "U or Special", "240");
-*/
+
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Antelope", "13", "1 to 4d8", "1 butt", "1d4 or 1d6 or 1d8", "80' (10')", "Wild 3d10", "Fighter: 1 to 4 (as Hit Dice)", "5(7)", "None", "25-240");
@@ -266,7 +265,7 @@ insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, mo
 values ("Giant, Stone", "17(15)", "9d8 (+8)", "1 Stone Club or 1 Thrown Rock", "3d6 or 3d6", "30' Unarmored 40'", "1d2, Wild 1d6, Lair 1d6", "Fighter: 9", "9", "E Plus 1d12x1000 gp", "1075");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Giant, Cloud", "19(13)", "15d8** (+11)", "1 Giant Weapon or 1 Lighting Bolt", "8d6 or 15d6", "30' Unarmored 50' (10')", "1, Wild 1d3, Lair 1d3", "Fighter: 15", "10", "E Plus 1d120x1000 gp", "3100");
+values ("Giant, Storm", "19(13)", "15d8** (+11)", "1 Giant Weapon or 1 Lighting Bolt", "8d6 or 15d6", "30' Unarmored 50' (10')", "1, Wild 1d3, Lair 1d3", "Fighter: 15", "10", "E Plus 1d120x1000 gp", "3100");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Gnoll", "15(13)", "2d8", "1 Weapon", "2d4 or By Weapon + 1", "30' Unarmored 40'", "1d6, Wild 3d6, Lair 3d6", "Fighter: 2", "8", "Q, S each; D, K in Lair", "75");
@@ -572,7 +571,7 @@ insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, mo
 values ("Unicorn", "19", "4d8*", "2 Hooves/1 Horn (+3 Attack Bonus)", "1d8/1d8/1d6+3", "80'", "Wild 1d6", "Fighter: 8", "7", "None", "280");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Unicorn", "19", "4d8*", "2 Hooves/1 Horn", "2d4/2d4/2d6", "70'", "Wild 1d8", "Fighter: 6", "9", "None", "280");
+values ("Alicorn", "19", "4d8*", "2 Hooves/1 Horn", "2d4/2d4/2d6", "70'", "Wild 1d8", "Fighter: 6", "9", "None", "280");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Vampire", "18 to 20‡", "7d8** to 9d8** (+8)", "1 Weapon or Special", "1d8 or By Weapon or Special", "40' Fly 60'", "1d6, Wild 1d6, Lair 1d6", "Fighter: 7 to 9 (as Hit Dice)", "11", "F", "800-1225");
@@ -603,9 +602,6 @@ values ("Wolf, Dire", "14", "4d8", "1 Bite", "2d4", "50'", "1d4, Wild 2d4, Lair 
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Wraith*", "15‡", "4d8**", "1 Touch", "1d6 + Energy Drain(1 Level)", "Fly 80'", "1d4, Lair 1d6", "Fighter: 4", "12", "E", "320");
-
-insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
-values ("Wolf, Dire", "14", "4d8", "1 Bite", "2d4", "50'", "1d4, Wild 2d4, Lair 2d4", "Fighter: 4", "9", "None", "240");
 
 insert into monsterstats (monname, armorclass, hitdice, numofattacks, damage, movement, numappearing, saveas, morale, treasuretype, xp)
 values ("Wyvern", "18", "7d8*", "1 Bite/1 Stinger or 2 Talons/1 Stinger", "2d8/1d6 + Poison or 1d10/1d10/1d6 + Poison", "30'(10') Fly 80' (15')", "Wild 1d6, Lair 1d6", "Fighter: 7", "9", "E", "735");
