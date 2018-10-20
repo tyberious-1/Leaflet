@@ -38,13 +38,20 @@ class genMonsterStats:
         self.monsterIndex = monsterIndex
 
         self.connection = sqlite3.connect('./data/monsterStats.db') 
+        #print(self.monsterIndex)
+
+    def pullMonsterStats(self):
+        self.monsterStatList = self.connection.execute('Select * from monsterstats where monname =?', self.monsterIndex)
+        #print(self.monsterStatList)
+    
 
 # Function pulls out the right file for output
     def callMonster(self):
-        if self.monsterIndex == "Ant, Giant\n":
-            self.monsterStatList = self.connection.execute("Select * from monsterstats where monname = \"Ant, Giant\"")
-
-
+        #if self.monsterIndex == "Ant, Giant\n":
+        #    self.monsterStatList = self.connection.execute("Select * from monsterstats where monname = \"Ant, Giant\"")
+        self.pullMonsterStats()
         
+        
+
     def closeDB(self):
         self.connection.close()
