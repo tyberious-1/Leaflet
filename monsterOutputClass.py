@@ -41,8 +41,10 @@ class genMonsterStats:
         #print(self.monsterIndex)
 
     def pullMonsterStats(self):
-        self.monsterStatList = self.connection.execute('Select * from monsterstats where monname =?', self.monsterIndex)
-        #print(self.monsterStatList)
+        sqlStatement = 'Select * from monsterstats where monname = \'{}\''.format(self.monsterIndex)
+        print(sqlStatement)
+        self.monsterStatList = self.connection.execute(sqlStatement)
+        print(self.monsterStatList[0])
     
 
 # Function pulls out the right file for output
